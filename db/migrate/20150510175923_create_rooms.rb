@@ -4,7 +4,7 @@ class CreateRooms < ActiveRecord::Migration
       t.string :title
       t.text :description
       t.integer :beds
-      t.integer :guests
+      t.integer :guests    
 
       t.timestamps null: false
     end
